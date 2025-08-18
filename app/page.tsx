@@ -299,13 +299,13 @@ export default function Portfolio() {
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/80 to-secondary/80 opacity-0 group-hover:opacity-100 transition-all duration-500 flex items-center justify-center">
-                    <Button
+                    {/* <Button
                       size="sm"
                       className="bg-white/90 text-primary hover:bg-white hover:scale-110 transition-all duration-300"
                     >
                       <ExternalLink size={16} className="mr-2" />
                       View Project
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
                 <CardContent className="p-6">
