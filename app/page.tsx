@@ -26,7 +26,7 @@ export default function Portfolio() {
       description: "A Hotel Booking Management System built with C#, ASP.NET, and SQL Server to streamline reservations, customer records, and room management.",
       image: "/thumbnail-hotel.png",
       tech: ["C#", "Asp.net", "Sql Server"],
-      link: "#",
+      link: "https://github.com/PrakharDevCode/Hotel-booking-management/",
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ export default function Portfolio() {
       description: "Responsive Netflix clone website built using HTML and CSS, replicating the streaming platform’s modern UI design.",
       image: "/Screenshot (542).png",
       tech: ["HTML", "CSS", "Respnsive design"],
-      link: "#",
+      link: "https://github.com/PrakharDevCode/Netflix_Website_Clone/",
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ export default function Portfolio() {
       description: "Modern portfolio website built with Next.js, React, TypeScript, Tailwind CSS, and Framer Motion, featuring smooth animations, responsive design, and optimized performance.",
       image: "/thumbnail-portfolio.png",
       tech: ["HTML","CSS","JavaScript(ES6+)","React.js","Next.js","Tailwind CSS","TypeScript","AI Prompt Engineering"],
-      link: "#",
+      link: "https://github.com/PrakharDevCode/Personal-Portfolio/",
     },
     {
       id: 4,
@@ -53,12 +53,14 @@ export default function Portfolio() {
       description: "Built with Next.js 14, React 18, TypeScript, Tailwind CSS, and shadcn/ui, featuring drag-and-drop file upload, interactive tool selection, and responsive animations using modern AI tools as well.",
       image: "/thumbnail-tools.png",
       tech: ["HTML","CSS","Next.js","React.js","Typescript","Tailwind CSS"],
-      link: "#",
+      link: "https://github.com/PrakharDevCode/PDF-Tools-Web-App/",
     }
 
   ]
 
   const skills = [
+    { name: "C#", level: 75 },
+    { name: ".Net", level: 70 },
     { name: "HTML", level: 90 },
     { name: "CSS", level: 75 },
     { name: "JavaScript", level: 60 },
@@ -66,7 +68,6 @@ export default function Portfolio() {
     { name: "TypeScript", level: 50 },
     { name: "Canva", level: 80 },
     { name: "Figma", level: 60 },
-    { name: ".Net", level: 60 },
     { name: "MySql", level: 70 },
     { name: "C++", level: 70 },
   ]
@@ -386,7 +387,7 @@ export default function Portfolio() {
 
             <Card className="animate-slide-up glass-card">
               <CardContent className="p-6">
-                <form action="https://formspree.io/f/mjkodyvr" method="POST" acceptCharset="UTF-8" className="space-y-6">
+                <form className="space-y-6">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium mb-2">
                       Name
